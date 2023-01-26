@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DBankDemoV1">
+    <test name="dBankDemo Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.dbankdemo.testCases.TC_Login_001"/>
+<!--            <class name="com.dbankdemo.testCases.TC_Register_001"/>-->
+            <class name="com.dbankdemo.testCases.TC_EditUser_001"/>
+            <class name="com.dbankdemo.testCases.TC_Logout_001"/>
+        </classes>
+    </test>
+</suite>
